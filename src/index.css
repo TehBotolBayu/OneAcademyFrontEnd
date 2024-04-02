@@ -1,0 +1,101 @@
+/* Default Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.input-border-b {
+  border-bottom-width: 1px;
+  border-bottom-color: #d0d0d0;
+  border-bottom-style: solid;
+}
+
+.badge-red {
+  background-color: #ff0000;
+  color: white;
+}
+
+.badge-green {
+  background-color: #73ca5c;
+  color: white;
+}
+
+.badge-lightwhite {
+  background-color: #e8f1ff;
+  color: black;
+}
+
+.badge-darkblue {
+  background-color: #6148ff;
+  color: white;
+}
+
+.badge-blue {
+  background-color: #489cff;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #6148ff;
+  color: white;
+}
+
+.btn-active {
+  background-color: #8030db;
+  color: white;
+}
+
+.btn-base {
+  background-color: white;
+  color: #8a8a8a;
+}
+
+.custom-toaster {
+  z-index: 10000;
+}
+
+.bg-custom {
+  background-image: radial-gradient(
+    circle,
+    #161725,
+    #151724,
+    #141723,
+    #141722,
+    #131721,
+    #151a25,
+    #171c28,
+    #191f2c,
+    #1e2536,
+    #242a41,
+    #2b304b,
+    #333556
+  );
+}
+
+.bg-custom-footer {
+  background-image: radial-gradient(
+    circle,
+    #1f1a1d,
+    #241c23,
+    #271e2a,
+    #282132,
+    #26253a,
+    #1f263c,
+    #17283e,
+    #0b293e,
+    #022736,
+    #01242d,
+    #032125,
+    #071d1d
+  );
+}
