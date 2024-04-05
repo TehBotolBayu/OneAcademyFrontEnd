@@ -8,18 +8,18 @@ const GoogleOAuth = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const loginWithGoogles = useGoogleLogin({
-    onSuccess: async (responseGoogle) => {
-      await dispatch(loginWithGoogle(responseGoogle.access_token, navigate));
-    },
-    onError: (errorResponse) => {
-      alert(errorResponse.error_description);
-    },
-  });
+  // const loginWithGoogles = useGoogleLogin({
+  //   onSuccess: async (responseGoogle) => {
+  //     await dispatch(loginWithGoogle(responseGoogle.access_token, navigate));
+  //   },
+  //   onError: (errorResponse) => {
+  //     alert(errorResponse.error_description);
+  //   },
+  // });
 
   return (
     <>
-      <button onClick={loginWithGoogles} className="btn bg-white shadow-md">
+      <button onClick={()=> {}} className="btn bg-white shadow-md">
         <div className="flex gap-1 items-center">
           <FcGoogle size={22} /> Sign in with Google
         </div>

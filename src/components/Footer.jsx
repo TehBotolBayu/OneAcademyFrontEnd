@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <div className="bg-custom-footer">
-      <footer className="text-white flex flex-col justify-between md:flex-row w-full h-auto px-6 py-8 border-t-4 border-indigo-500">
+      {/* <footer className="text-white flex flex-col justify-between md:flex-row w-full h-auto px-6 py-8 border-t-4 border-indigo-500">
         <div className="mb-4 flex items-center flex-col md:w-2/4">
           <img src="/footer_logo.svg" alt="logo" className="w-96 mb-3" />
           <p className="text-sm text-justify md:text-start mt-2 space-x-4">
@@ -33,62 +33,6 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="mb-4 mx-2">
-          <h3 className="text-sm font-bold mb-2">Our Front End Team</h3>
-          <ul className="flex gap-2 flex-col">
-            <li>
-              <Link
-                to={"https://github.com/DavincyProject"}
-                target="_blank"
-                className="flex items-center gap-2 hover:text-blue-400 w-fit"
-              >
-                <SlSocialGithub size={20} /> DavincyProject
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"https://github.com/aminkarben"}
-                target="_blank"
-                className="flex items-center gap-2 hover:text-blue-400 w-fit"
-              >
-                <SlSocialGithub size={20} /> aminkarben
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"https://github.com/AditFebriNH"}
-                target="_blank"
-                className="flex items-center gap-2 hover:text-blue-400 w-fit"
-              >
-                <SlSocialGithub size={20} /> AditFebriNH
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className="mb-4 mx-2">
-          <h3 className="text-sm  font-bold mb-2">Our Back End Team</h3>
-          <ul className="flex gap-2 flex-col">
-            <li>
-              <Link
-                to={"https://github.com/dimasz555"}
-                target="_blank"
-                className="flex items-center gap-2 hover:text-blue-400 w-fit"
-              >
-                <SlSocialGithub size={20} /> dimasz555
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"https://github.com/TehBotolBayu"}
-                target="_blank"
-                className="flex items-center gap-2 hover:text-blue-400 w-fit"
-              >
-                <SlSocialGithub size={20} /> TehBotolBayu
-              </Link>
-            </li>
-          </ul>
-        </div>
 
         <div className="flex flex-col mx-2">
           <div className="flex flex-col">
@@ -127,7 +71,7 @@ const Footer = () => {
         <span className="text-[#a5c9ca]">
           All icons and logos are the property of their respective owners.
         </span>
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -108,8 +108,8 @@ const Login = () => {
             </div>
           </div>
         </form>
-        <div className="divider">Or Login With</div>
-        <GoogleOAuth />
+        {/* <div className="divider">Or Login With</div> */}
+        {/* <GoogleOAuth /> */}
       </div>
 
       <div className="hidden lg:flex justify-center items-center bg-darkblue w-[50%] min-h-[100dvh]">
