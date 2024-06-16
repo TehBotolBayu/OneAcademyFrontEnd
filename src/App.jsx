@@ -22,13 +22,13 @@ import Payment from "./pages/Payment/Payment";
 import KelolaChapter from "./pages/Admin/KelolaChapter";
 import ProtectAdmin from "./components/Auth/ProtectAdmin";
 import Footer from "./components/Footer";
-import { GoogleOAuthProvider } from "@react-oauth/google";
+// import { GoogleOAuthProvider } from "@react-oauth/google";
 
 function App() {
   return (
     <>
       <Provider store={store}>
-        <GoogleOAuthProvider clientId={import.meta.env.VITE_OAUTH_CLIENT_ID}>
+        {/* <GoogleOAuthProvider clientId={import.meta.env.VITE_OAUTH_CLIENT_ID}> */}
           <BrowserRouter>
             <Toaster
               position="bottom-center"
@@ -70,9 +70,9 @@ function App() {
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>
-            <Footer />
+            {/* <Footer /> */}
           </BrowserRouter>
-        </GoogleOAuthProvider>
+        {/* </GoogleOAuthProvider> */}
       </Provider>
     </>
   );
